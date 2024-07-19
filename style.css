@@ -1,0 +1,60 @@
+body {
+    background-image: url(https://i.ibb.co/4K9qYw8/pexels-pixabay-531880.jpg);
+  }
+
+
+#pleaseSignIn{
+display: flex;
+align-items: center;
+justify-content: center;
+text-size-adjust: auto;
+color: rgb(220, 230, 222);
+text-decoration-line: underline;
+font-family: Franklin Gothic Medium, sans-serif;
+}
+
+#mainBox {
+display: flex;
+background-color: rgb(6, 40, 46);
+height: 50vh;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+box-shadow: 4px 4px 4px rgba(52, 36, 8, 0.839);
+min-block-size: 25vh;
+border-radius: 25%;
+}
+
+#enterHere {
+    display: flex;
+    height: 30vh;
+    width: 50vh;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    border-radius: 25%;
+    box-shadow: rgb(52, 36, 8);
+    min-block-size: 25vh;
+}
+
+#midBox {
+    display:flex;
+    position: relative;
+    flex-direction: row;
+    background-color: rgba(64, 185, 86, 0.439);
+    height: 30vh;
+    width: 50vh;
+    box-shadow: rgb(52, 36, 8);
+    border-radius: 15%;
+    min-block-size: 25vh;
+}
+
+#username{
+display: flex;
+justify-content: center;
+}
+
+#email{
+display: flex;
+justify-content: center;
+}
