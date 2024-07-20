@@ -1,61 +1,126 @@
+#htmlev { 
+ height: 100%;
+}
+
 body {
     background-image: url(https://i.ibb.co/4K9qYw8/pexels-pixabay-531880.jpg);
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
 
 #pleaseSignIn{
 display: flex;
-align-items: center;
+align-self: center;
 justify-content: center;
-text-size-adjust: auto;
 color: rgb(220, 230, 222);
 text-decoration-line: underline;
-font-family: Franklin Gothic Medium, sans-serif;
+font-family: 'Franklin Gothic Medium', sans-serif;
 }
 
 #mainBox {
 display: flex;
-background-color: rgb(6, 40, 46);
-height: 50vh;
+background-color: rgba(6, 40, 46, 0.516);
 justify-content: center;
 align-items: center;
 flex-direction: column;
 box-shadow: 4px 4px 4px rgba(52, 36, 8, 0.839);
-min-block-size: 25vh;
 border-radius: 25%;
+max-height: 50vh;
+max-width: 65vh;
+min-height: 50vh;
+min-width: 60vh;
 }
 
 #enterHere {
     display: flex;
-    height: 30vh;
-    width: 50vh;
     align-items: center;
     justify-content: center;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
+    row-gap: 1vh;
     border-radius: 25%;
     box-shadow: rgb(52, 36, 8);
-    min-block-size: 25vh;
     border: 0px;
+    max-height: 68vh;
+    max-width: 65vh;
+    min-height: 8vh;
+    min-width: 65vh;
 }
 
 #midBox {
-    display:flex;
-    position: relative;
-    flex-direction: row;
-    background-color: rgba(64, 185, 86, 0.439);
-    height: 30vh;
-    width: 50vh;
-    box-shadow: rgb(52, 36, 8);
-    border-radius: 15%;
-    min-block-size: 25vh;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgba(64, 185, 86, 0.738);
+    box-shadow: 2px 2px 2px rgb(52, 36, 8);
+    border-radius: 55%;
+    max-height: 15vh;
+    max-width: 150vh;
+    min-height: 15vh;
+    min-width: 15vh;
 }
 
 #username{
 display: flex;
 justify-content: center;
+align-items: center;
+font-family: 'Franklin Gothic medium', sans-serif;
+border-style: hidden;
+border-radius: 25%;
+text-align: center;
+background-color: rgb(12, 48, 92);
+box-shadow: 10px -4px 4px rgba(52, 36, 8, 0.372);
+max-height: 3vh;
+max-width: 18vh;
+min-height: 3vh;
+min-width: 18vh;
 }
 
-#email{
+#password{
 display: flex;
 justify-content: center;
+align-items: center;
+font-family: 'Franklin Gothic medium', sans-serif;
+border-style: hidden;
+border-radius: 25%;
+text-align: center;
+background-color: rgb(12, 48, 92);
+text-decoration-color: black;
+box-shadow: -10px 4px 4px rgba(52, 36, 8, 0.369);
+max-height: 3vh;
+max-width: 18vh;
+min-height: 3vh;
+min-width: 18vh;
+
+}
+
+#submit{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+background-color: rgb(96, 69, 23);
+color: beige;
+font-family: 'Franklin Gothic medium', sans-serif;
+border-radius: 200%;
+border-color: rgb(6, 40, 46);
+box-shadow: 4px 4px 4px rgb(52, 36, 8);
+max-height: 4vh;
+max-width: 11vh;
+min-height: 4vh;
+min-width: 11vh;
+}
+
+#submit:hover {
+background-color: aliceblue;
+color: black;
+transform: rotateZ(180deg);
+}
+
+#username:hover{
+    background-color: aliceblue;
+}
+
+#password:hover{
+    background-color: aliceblue;
 }

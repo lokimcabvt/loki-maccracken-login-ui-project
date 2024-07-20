@@ -1,25 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><!--this is a nonfunctional sign in web page-->
+<html lang="en" id="htmlev">
     <head> 
         <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Loki MacCracken Login UI Project</title>   
         <link rel="stylesheet" href="style.css">
     </head>
+    <!--the body contains the background img style and sign in boxes-->
 <body>
             <header>
               </header>
+              <!--first larger box/teal in color-->
 <div id="mainBox">
-    <main>
+    <main id="main">
+        <!--sign on main larger box that asks the user to sign in-->
         <h1 id="pleaseSignIn">Please Sign in</h1>
+        <!--smaller middle oval box/green in color-->
         <div id="midBox">
+            <!--the "box" that contains the fields to enter information and submit it with a button-->
             <fieldset id="enterHere">
+                <!--a field for the user to enter their username-->
                 <label for="username">
                     <input id="username" type="username" placeholder="Username"/>
                 </label>
+                <!--a field for the user to type their password-->
                 <label for="password">
                     <input id="password" type="password" placeholder="Password"/>
                 </label>
-                <input type="submit" value="Sign in"/>
+                <!--the sign in/submit button-->
+                <input id="submit" type="submit" value="Sign in"/>
             </fieldset>
         </div>
     </main>
