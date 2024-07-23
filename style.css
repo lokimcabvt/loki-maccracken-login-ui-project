@@ -1,5 +1,6 @@
 #html{ 
  height: 100vh;
+ width: 100vh
 }
 
 body {
@@ -7,7 +8,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 1;
     height: 100vh;
+    width: 100vw;
 }
 
 #pleaseSignIn{
@@ -17,6 +20,7 @@ justify-content: center;
 align-items: center;
 color: blanchedalmond;
 text-decoration-line: underline;
+text-decoration-color: rgba(52, 36, 8, 0.839);
 font-family: 'Franklin Gothic Medium', sans-serif;
 height: 100%;
 width: 100%;
@@ -29,6 +33,7 @@ background-color: rgba(6, 40, 46, 0.516);
 justify-content: center;
 align-items: center;
 flex-direction: column;
+flex-shrink: -1;
 box-shadow: 4px 4px 4px rgba(52, 36, 8, 0.839);
 border-radius: 25%;
 max-height: 55vh;
@@ -42,6 +47,7 @@ min-width: 65vh;
     align-items: center;
     justify-content: center;
     flex-flow: column nowrap;
+    flex-shrink: 1vh;
     row-gap: 1vh;
     border-radius: 25%;
     box-shadow: rgb(52, 36, 8);
